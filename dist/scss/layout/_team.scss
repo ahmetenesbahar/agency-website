@@ -21,6 +21,8 @@ section.team {
     @include flex;
     width: 100%;
     .card-1 {
+      @include flex($direction: column);
+      flex-basis: 25%;
       .img-bg {
         @include flex;
         border-radius: 50%;
@@ -44,7 +46,104 @@ section.team {
           color: $dark-gray;
           padding: 0.5rem;
         }
+        .socials {
+          @include flex;
+          width: 100%;
+          column-gap: 5px;
+          button {
+            background-color: $black;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+          }
+        }
       }
+    }
+    .card-2 {
+      @include flex($direction: column);
+      flex-basis: 25%;
+      .img-bg {
+        @include flex;
+        border-radius: 50%;
+        width: 224px;
+        height: 224px;
+        background-color: $border-gray;
+        img {
+          border-radius: 50%;
+          width: 208px;
+          height: 208px;
+        }
+      }
+      .card-h4 {
+        @include flex($direction: column);
+        padding: 1.5rem;
+        h4 {
+          font-size: 1.3rem;
+          font-weight: bold;
+        }
+        p {
+          color: $dark-gray;
+          padding: 0.5rem;
+        }
+        .socials {
+          @include flex;
+          width: 100%;
+          column-gap: 5px;
+          button {
+            background-color: $black;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+    .card-3 {
+      @include flex($direction: column);
+      flex-basis: 25%;
+      .img-bg {
+        @include flex;
+        border-radius: 50%;
+        width: 224px;
+        height: 224px;
+        background-color: $border-gray;
+        img {
+          border-radius: 50%;
+          width: 208px;
+          height: 208px;
+        }
+      }
+      .card-h4 {
+        @include flex($direction: column);
+        padding: 1.5rem;
+        h4 {
+          font-size: 1.3rem;
+          font-weight: bold;
+        }
+        p {
+          color: $dark-gray;
+          padding: 0.5rem;
+        }
+        .socials {
+          @include flex;
+          width: 100%;
+          column-gap: 5px;
+          button {
+            background-color: $black;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+  .team-p {
+    width: 100%;
+    p {
+      color: $dark-gray;
+      text-align: center;
+      padding: 3rem 25% 0rem 25%;
     }
   }
 }
