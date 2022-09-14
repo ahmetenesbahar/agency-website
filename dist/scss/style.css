@@ -1058,6 +1058,118 @@ section.about .row-5 .card-2 .card-image .image p {
   font-size: 1.3rem;
 }
 
+section.contact {
+  width: 100%;
+}
+section.contact .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  padding-bottom: 3rem;
+}
+section.contact .links img {
+  width: 206px;
+  height: 44px;
+  margin: 0rem 4rem;
+}
+section.contact .contact {
+  width: 100%;
+  background-color: #212529;
+}
+section.contact .contact .contact-bg {
+  width: 100%;
+  background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
+}
+section.contact .contact .contact-bg .contact-h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+section.contact .contact .contact-bg .contact-h3 h3 {
+  padding-top: 5rem;
+  font-size: 3rem;
+  color: #fff;
+  font-weight: bold;
+}
+section.contact .contact .contact-bg .contact-h3 p {
+  padding: 1rem 0rem 2rem 0rem;
+  color: rgba(255, 255, 255, 0.75) !important;
+  font-style: italic;
+}
+section.contact .contact .contact-bg .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+section.contact .contact .contact-bg .row .col-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  flex-basis: 50%;
+  row-gap: 25px;
+  padding: 2rem 2rem 2rem 15rem;
+}
+section.contact .contact .contact-bg .row .col-1 input {
+  border-color: transparent;
+  width: 100%;
+  padding: 1rem 0;
+  font-size: 1rem;
+  row-gap: 25px;
+  border-radius: 2%;
+}
+section.contact .contact .contact-bg .row .col-1 input:focus {
+  outline: none;
+}
+section.contact .contact .contact-bg .row .col-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-basis: 50%;
+  width: 100%;
+  padding: 2rem 15rem 2rem 2rem;
+}
+section.contact .contact .contact-bg .row .col-2 textarea {
+  border-radius: 2%;
+  border-color: transparent;
+  width: 100%;
+  font-size: 1rem;
+}
+section.contact .contact .contact-bg .row .col-2 textarea:focus {
+  outline: none;
+}
+section.contact .contact .contact-bg .contact-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  padding: 2rem 0rem 6rem 0rem;
+}
+section.contact .contact .contact-bg .contact-btn button {
+  padding: 1.5rem 3rem;
+  border: none;
+  background-color: #ffc800;
+  color: #fff;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-radius: 3%;
+}
+section.contact .contact .contact-bg .contact-btn button:hover {
+  background-color: #cca000;
+  color: #fff;
+}
+
 section.team {
   display: flex;
   align-items: center;

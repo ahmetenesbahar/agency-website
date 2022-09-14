@@ -1,0 +1,82 @@
+section.contact {
+  width: 100%;
+  .links {
+    @include flex;
+    width: 100%;
+    img {
+      width: 206px;
+      height: 44px;
+      margin: 0rem 4rem;
+    }
+    padding-bottom: 3rem;
+  }
+  .contact {
+    width: 100%;
+    background-color: $light-black;
+    .contact-bg {
+      width: 100%;
+      background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
+      .contact-h3 {
+        @include flex($direction: column);
+        width: 100%;
+        h3 {
+          padding-top: 5rem;
+          font-size: 3rem;
+          color: $white;
+          font-weight: bold;
+        }
+        p {
+          padding: 1rem 0rem 2rem 0rem;
+          color: $gray;
+          font-style: italic;
+        }
+      }
+      .row {
+        @include flex;
+        .col-1 {
+          @include flex($direction: column);
+          width: 100%;
+          flex-basis: 50%;
+          row-gap: 25px;
+          padding: 2rem 2rem 2rem 15rem;
+
+          input {
+            border-color: transparent;
+            width: 100%;
+            padding: 1rem 0;
+            font-size: 1rem;
+            row-gap: 25px;
+            border-radius: 2%;
+
+            &:focus {
+              outline: none;
+            }
+          }
+        }
+        .col-2 {
+          @include flex;
+          flex-basis: 50%;
+          width: 100%;
+          padding: 2rem 15rem 2rem 2rem;
+          textarea {
+            border-radius: 2%;
+            border-color: transparent;
+            width: 100%;
+            font-size: 1rem;
+            &:focus {
+              outline: none;
+            }
+          }
+        }
+      }
+      .contact-btn {
+        @include flex;
+        width: 100%;
+        padding: 2rem 0rem 6rem 0rem;
+        button {
+          @include button;
+        }
+      }
+    }
+  }
+}
