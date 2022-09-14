@@ -1138,6 +1138,8 @@ section.contact .contact {
 section.contact .contact .contact-bg {
   width: 100%;
   background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 section.contact .contact .contact-bg .contact-h3 {
   display: flex;

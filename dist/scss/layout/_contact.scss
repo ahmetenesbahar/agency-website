@@ -18,6 +18,8 @@ section.contact {
     .contact-bg {
       width: 100%;
       background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
+      background-repeat: no-repeat;
+      background-position: center;
       .contact-h3 {
         @include flex($direction: column);
         width: 100%;
