@@ -1,0 +1,339 @@
+section.portfolio {
+  width: 100%;
+  background-color: $bg-gray;
+  .portfolio-h3 {
+    @include flex($direction: column);
+    width: 100%;
+    h3 {
+      font-size: 3rem;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    p {
+      color: $dark-gray;
+      padding: 1.5rem;
+      font-style: italic;
+    }
+  }
+  .row-1 {
+    @include flex;
+    width: 100%;
+    .card-1 {
+      width: 416px;
+      height: 420px;
+      background-color: $white;
+      position: relative;
+      margin: 0.8rem;
+
+      h4 {
+        @include flex;
+        width: 100%;
+        font-size: 1.3rem;
+        font-weight: bold;
+        padding-top: 1rem;
+        letter-spacing: 0.03rem;
+      }
+      p {
+        @include flex;
+        padding: 0.8rem;
+        font-style: italic;
+        color: $dark-gray;
+      }
+
+      img {
+        width: 416px;
+        height: 312px;
+        object-fit: cover;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 416px;
+        height: 312px;
+        opacity: 0;
+        transition: 0.5s ease;
+        background-color: $yellow;
+        p {
+          @include flex;
+          color: $white;
+          text-align: center;
+          width: 416px;
+          height: 312px;
+          font-style: normal;
+          font-size: 5rem;
+        }
+      }
+      &:hover .overlay {
+        opacity: 0.9;
+        cursor: pointer;
+      }
+    }
+    .card-2 {
+      width: 416px;
+      height: 420px;
+      background-color: $white;
+      position: relative;
+      margin: 0.8rem;
+      h4 {
+        @include flex;
+        width: 100%;
+        font-size: 1.3rem;
+        font-weight: bold;
+        padding-top: 1rem;
+        letter-spacing: 0.03rem;
+      }
+      p {
+        @include flex;
+        padding: 0.8rem;
+        font-style: italic;
+        color: $dark-gray;
+      }
+
+      img {
+        width: 416px;
+        height: 312px;
+        object-fit: cover;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 416px;
+        height: 312px;
+        opacity: 0;
+        transition: 0.5s ease;
+        background-color: $yellow;
+        p {
+          @include flex;
+          color: $white;
+          text-align: center;
+          width: 416px;
+          height: 312px;
+          font-style: normal;
+          font-size: 5rem;
+        }
+      }
+      &:hover .overlay {
+        opacity: 0.9;
+        cursor: pointer;
+      }
+    }
+    .card-3 {
+      width: 416px;
+      height: 420px;
+      background-color: $white;
+      position: relative;
+      margin: 0.8rem;
+      h4 {
+        @include flex;
+        width: 100%;
+        font-size: 1.3rem;
+        font-weight: bold;
+        padding-top: 1rem;
+        letter-spacing: 0.03rem;
+      }
+      p {
+        @include flex;
+        padding: 0.8rem;
+        font-style: italic;
+        color: $dark-gray;
+      }
+
+      img {
+        width: 416px;
+        height: 312px;
+        object-fit: cover;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 416px;
+        height: 312px;
+        opacity: 0;
+        transition: 0.5s ease;
+        background-color: $yellow;
+        p {
+          @include flex;
+          color: $white;
+          text-align: center;
+          width: 416px;
+          height: 312px;
+          font-style: normal;
+          font-size: 5rem;
+        }
+      }
+      &:hover .overlay {
+        opacity: 0.9;
+        cursor: pointer;
+      }
+    }
+  }
+  .row-2 {
+    @include flex;
+    width: 100%;
+    .card-4 {
+      width: 416px;
+      height: 420px;
+      background-color: $white;
+      position: relative;
+      margin: 0.8rem;
+      h4 {
+        @include flex;
+        width: 100%;
+        font-size: 1.3rem;
+        font-weight: bold;
+        padding-top: 1rem;
+        letter-spacing: 0.03rem;
+      }
+      p {
+        @include flex;
+        padding: 0.8rem;
+        font-style: italic;
+        color: $dark-gray;
+      }
+
+      img {
+        width: 416px;
+        height: 312px;
+        object-fit: cover;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 416px;
+        height: 312px;
+        opacity: 0;
+        transition: 0.5s ease;
+        background-color: $yellow;
+        p {
+          @include flex;
+          color: $white;
+          text-align: center;
+          width: 416px;
+          height: 312px;
+          font-style: normal;
+          font-size: 5rem;
+        }
+      }
+      &:hover .overlay {
+        opacity: 0.9;
+        cursor: pointer;
+      }
+    }
+    .card-5 {
+      width: 416px;
+      height: 420px;
+      background-color: $white;
+      position: relative;
+      margin: 0.8rem;
+      h4 {
+        @include flex;
+        width: 100%;
+        font-size: 1.3rem;
+        font-weight: bold;
+        padding-top: 1rem;
+        letter-spacing: 0.03rem;
+      }
+      p {
+        @include flex;
+        padding: 0.8rem;
+        font-style: italic;
+        color: $dark-gray;
+      }
+
+      img {
+        width: 416px;
+        height: 312px;
+        object-fit: cover;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 416px;
+        height: 312px;
+        opacity: 0;
+        transition: 0.5s ease;
+        background-color: $yellow;
+        p {
+          @include flex;
+          color: $white;
+          text-align: center;
+          width: 416px;
+          height: 312px;
+          font-style: normal;
+          font-size: 5rem;
+        }
+      }
+      &:hover .overlay {
+        opacity: 0.9;
+        cursor: pointer;
+      }
+    }
+    .card-6 {
+      width: 416px;
+      height: 420px;
+      background-color: $white;
+      position: relative;
+      margin: 0.8rem;
+      h4 {
+        @include flex;
+        width: 100%;
+        font-size: 1.3rem;
+        font-weight: bold;
+        padding-top: 1rem;
+        letter-spacing: 0.03rem;
+      }
+      p {
+        @include flex;
+        padding: 0.8rem;
+        font-style: italic;
+        color: $dark-gray;
+      }
+
+      img {
+        width: 416px;
+        height: 312px;
+        object-fit: cover;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 416px;
+        height: 312px;
+        opacity: 0;
+        transition: 0.5s ease;
+        background-color: $yellow;
+        p {
+          @include flex;
+          color: $white;
+          text-align: center;
+          width: 416px;
+          height: 312px;
+          font-style: normal;
+          font-size: 5rem;
+        }
+      }
+      &:hover .overlay {
+        opacity: 0.9;
+        cursor: pointer;
+      }
+    }
+  }
+}

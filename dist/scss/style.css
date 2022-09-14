@@ -377,4 +377,406 @@ section.services .row .card-3 .card-h4 p {
   color: gray;
   padding: 0rem 2rem;
   line-height: 1.5;
+}
+
+section.portfolio {
+  width: 100%;
+  background-color: rgb(248, 249, 250);
+}
+section.portfolio .portfolio-h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+section.portfolio .portfolio-h3 h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+section.portfolio .portfolio-h3 p {
+  color: gray;
+  padding: 1.5rem;
+  font-style: italic;
+}
+section.portfolio .row-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+section.portfolio .row-1 .card-1 {
+  width: 416px;
+  height: 420px;
+  background-color: #fff;
+  position: relative;
+  margin: 0.8rem;
+}
+section.portfolio .row-1 .card-1 h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-top: 1rem;
+  letter-spacing: 0.03rem;
+}
+section.portfolio .row-1 .card-1 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0.8rem;
+  font-style: italic;
+  color: gray;
+}
+section.portfolio .row-1 .card-1 img {
+  width: 416px;
+  height: 312px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.portfolio .row-1 .card-1 .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 416px;
+  height: 312px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #ffc800;
+}
+section.portfolio .row-1 .card-1 .overlay p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: #fff;
+  text-align: center;
+  width: 416px;
+  height: 312px;
+  font-style: normal;
+  font-size: 5rem;
+}
+section.portfolio .row-1 .card-1:hover .overlay {
+  opacity: 0.9;
+  cursor: pointer;
+}
+section.portfolio .row-1 .card-2 {
+  width: 416px;
+  height: 420px;
+  background-color: #fff;
+  position: relative;
+  margin: 0.8rem;
+}
+section.portfolio .row-1 .card-2 h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-top: 1rem;
+  letter-spacing: 0.03rem;
+}
+section.portfolio .row-1 .card-2 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0.8rem;
+  font-style: italic;
+  color: gray;
+}
+section.portfolio .row-1 .card-2 img {
+  width: 416px;
+  height: 312px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.portfolio .row-1 .card-2 .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 416px;
+  height: 312px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #ffc800;
+}
+section.portfolio .row-1 .card-2 .overlay p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: #fff;
+  text-align: center;
+  width: 416px;
+  height: 312px;
+  font-style: normal;
+  font-size: 5rem;
+}
+section.portfolio .row-1 .card-2:hover .overlay {
+  opacity: 0.9;
+  cursor: pointer;
+}
+section.portfolio .row-1 .card-3 {
+  width: 416px;
+  height: 420px;
+  background-color: #fff;
+  position: relative;
+  margin: 0.8rem;
+}
+section.portfolio .row-1 .card-3 h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-top: 1rem;
+  letter-spacing: 0.03rem;
+}
+section.portfolio .row-1 .card-3 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0.8rem;
+  font-style: italic;
+  color: gray;
+}
+section.portfolio .row-1 .card-3 img {
+  width: 416px;
+  height: 312px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.portfolio .row-1 .card-3 .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 416px;
+  height: 312px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #ffc800;
+}
+section.portfolio .row-1 .card-3 .overlay p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: #fff;
+  text-align: center;
+  width: 416px;
+  height: 312px;
+  font-style: normal;
+  font-size: 5rem;
+}
+section.portfolio .row-1 .card-3:hover .overlay {
+  opacity: 0.9;
+  cursor: pointer;
+}
+section.portfolio .row-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+section.portfolio .row-2 .card-4 {
+  width: 416px;
+  height: 420px;
+  background-color: #fff;
+  position: relative;
+  margin: 0.8rem;
+}
+section.portfolio .row-2 .card-4 h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-top: 1rem;
+  letter-spacing: 0.03rem;
+}
+section.portfolio .row-2 .card-4 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0.8rem;
+  font-style: italic;
+  color: gray;
+}
+section.portfolio .row-2 .card-4 img {
+  width: 416px;
+  height: 312px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.portfolio .row-2 .card-4 .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 416px;
+  height: 312px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #ffc800;
+}
+section.portfolio .row-2 .card-4 .overlay p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: #fff;
+  text-align: center;
+  width: 416px;
+  height: 312px;
+  font-style: normal;
+  font-size: 5rem;
+}
+section.portfolio .row-2 .card-4:hover .overlay {
+  opacity: 0.9;
+  cursor: pointer;
+}
+section.portfolio .row-2 .card-5 {
+  width: 416px;
+  height: 420px;
+  background-color: #fff;
+  position: relative;
+  margin: 0.8rem;
+}
+section.portfolio .row-2 .card-5 h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-top: 1rem;
+  letter-spacing: 0.03rem;
+}
+section.portfolio .row-2 .card-5 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0.8rem;
+  font-style: italic;
+  color: gray;
+}
+section.portfolio .row-2 .card-5 img {
+  width: 416px;
+  height: 312px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.portfolio .row-2 .card-5 .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 416px;
+  height: 312px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #ffc800;
+}
+section.portfolio .row-2 .card-5 .overlay p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: #fff;
+  text-align: center;
+  width: 416px;
+  height: 312px;
+  font-style: normal;
+  font-size: 5rem;
+}
+section.portfolio .row-2 .card-5:hover .overlay {
+  opacity: 0.9;
+  cursor: pointer;
+}
+section.portfolio .row-2 .card-6 {
+  width: 416px;
+  height: 420px;
+  background-color: #fff;
+  position: relative;
+  margin: 0.8rem;
+}
+section.portfolio .row-2 .card-6 h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-top: 1rem;
+  letter-spacing: 0.03rem;
+}
+section.portfolio .row-2 .card-6 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0.8rem;
+  font-style: italic;
+  color: gray;
+}
+section.portfolio .row-2 .card-6 img {
+  width: 416px;
+  height: 312px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.portfolio .row-2 .card-6 .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 416px;
+  height: 312px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #ffc800;
+}
+section.portfolio .row-2 .card-6 .overlay p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: #fff;
+  text-align: center;
+  width: 416px;
+  height: 312px;
+  font-style: normal;
+  font-size: 5rem;
+}
+section.portfolio .row-2 .card-6:hover .overlay {
+  opacity: 0.9;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
