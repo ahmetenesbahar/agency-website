@@ -250,7 +250,7 @@ section.header .header-btn {
   justify-content: center;
   flex-direction: row;
   width: 100%;
-  padding: 5rem 0rem 7rem 0rem;
+  padding: 5rem 0rem 5rem 0rem;
 }
 section.header .header-btn button {
   padding: 1.5rem 3rem;
@@ -267,4 +267,114 @@ section.header .header-btn button {
 section.header .header-btn button:hover {
   background-color: #cca000;
   color: #fff;
+}
+
+section.services {
+  margin-top: 43rem;
+  width: 100%;
+}
+section.services .services-h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+section.services .services-h3 h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+section.services .services-h3 p {
+  padding: 1.5rem;
+  font-style: italic;
+  color: gray;
+}
+section.services .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  padding: 0rem 10rem;
+}
+section.services .row .card-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+section.services .row .card-1 .card-logo {
+  background-color: #ffc800;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+section.services .row .card-1 .card-h4 {
+  width: 100%;
+}
+section.services .row .card-1 .card-h4 h4 {
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+section.services .row .card-1 .card-h4 p {
+  color: gray;
+  padding: 0rem 2rem;
+  line-height: 1.5;
+}
+section.services .row .card-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+section.services .row .card-2 .card-logo {
+  background-color: #ffc800;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+section.services .row .card-2 .card-h4 {
+  width: 100%;
+}
+section.services .row .card-2 .card-h4 h4 {
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+section.services .row .card-2 .card-h4 p {
+  color: gray;
+  padding: 0rem 2rem;
+  line-height: 1.5;
+}
+section.services .row .card-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+section.services .row .card-3 .card-logo {
+  background-color: #ffc800;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+section.services .row .card-3 .card-h4 {
+  width: 100%;
+}
+section.services .row .card-3 .card-h4 h4 {
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+section.services .row .card-3 .card-h4 p {
+  color: gray;
+  padding: 0rem 2rem;
+  line-height: 1.5;
 }/*# sourceMappingURL=style.css.map */

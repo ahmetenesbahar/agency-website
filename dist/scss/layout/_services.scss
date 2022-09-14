@@ -1,0 +1,97 @@
+section.services {
+  margin-top: 43rem;
+  width: 100%;
+  .services-h3 {
+    @include flex($direction: column);
+    width: 100%;
+    padding-bottom: 2rem;
+    h3 {
+      font-size: 3rem;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    p {
+      padding: 1.5rem;
+      font-style: italic;
+      color: $dark-gray;
+    }
+  }
+  .row {
+    @include flex;
+    position: relative;
+    width: 100%;
+    padding: 0rem 10rem;
+    .card-1 {
+      @include flex($direction: column);
+      text-align: center;
+      .card-logo {
+        background-color: $yellow;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+      }
+      .card-h4 {
+        width: 100%;
+
+        h4 {
+          padding: 1.5rem;
+          font-size: 1.5rem;
+          font-weight: bold;
+        }
+        p {
+          color: $dark-gray;
+          padding: 0rem 2rem;
+          line-height: 1.5;
+        }
+      }
+    }
+    .card-2 {
+      @include flex($direction: column);
+      text-align: center;
+      .card-logo {
+        background-color: $yellow;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+      }
+      .card-h4 {
+        width: 100%;
+
+        h4 {
+          padding: 1.5rem;
+          font-size: 1.5rem;
+          font-weight: bold;
+        }
+        p {
+          color: $dark-gray;
+          padding: 0rem 2rem;
+          line-height: 1.5;
+        }
+      }
+    }
+    .card-3 {
+      @include flex($direction: column);
+      text-align: center;
+      .card-logo {
+        background-color: $yellow;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+      }
+      .card-h4 {
+        width: 100%;
+
+        h4 {
+          padding: 1.5rem;
+          font-size: 1.5rem;
+          font-weight: bold;
+        }
+        p {
+          color: $dark-gray;
+          padding: 0rem 2rem;
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+}
