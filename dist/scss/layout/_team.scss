@@ -1,0 +1,50 @@
+section.team {
+  @include flex($direction: column);
+  width: 100%;
+  background-color: $bg-gray;
+  .team-h3 {
+    @include flex($direction: column);
+    width: 100%;
+
+    h3 {
+      text-transform: uppercase;
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    p {
+      color: $dark-gray;
+      font-style: italic;
+      padding: 2rem;
+    }
+  }
+  .row {
+    @include flex;
+    width: 100%;
+    .card-1 {
+      .img-bg {
+        @include flex;
+        border-radius: 50%;
+        width: 224px;
+        height: 224px;
+        background-color: $border-gray;
+        img {
+          border-radius: 50%;
+          width: 208px;
+          height: 208px;
+        }
+      }
+      .card-h4 {
+        @include flex($direction: column);
+        padding: 1.5rem;
+        h4 {
+          font-size: 1.3rem;
+          font-weight: bold;
+        }
+        p {
+          color: $dark-gray;
+          padding: 0.5rem;
+        }
+      }
+    }
+  }
+}
