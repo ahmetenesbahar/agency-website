@@ -1,0 +1,21 @@
+nav.navbar {
+  @include flex(space-between);
+  width: 100%;
+  padding: 1.5rem 15rem;
+  z-index: 2;
+  position: relative;
+  .brand-logo {
+    font-size: 1.8rem;
+    color: $yellow;
+  }
+  ul {
+    @include flex;
+    column-gap: 30px;
+    li {
+      color: $dark-gray;
+      text-transform: uppercase;
+      font-size: 1.1rem;
+      letter-spacing: 0.04rem;
+    }
+  }
+}
