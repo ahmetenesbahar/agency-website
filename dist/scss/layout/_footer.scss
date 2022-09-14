@@ -1,0 +1,34 @@
+footer {
+  @include flex;
+  width: 100%;
+  padding: 1.5rem 0rem;
+  background-color: $bg-gray;
+  .row {
+    @include flex;
+    width: 100%;
+    .card-1 {
+      @include flex;
+      width: 100%;
+      color: $dark-gray;
+    }
+    .card-2 {
+      @include flex;
+      width: 100%;
+      column-gap: 25px;
+      button {
+        background-color: $black;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+      }
+    }
+    .card-3 {
+      @include flex;
+      width: 100%;
+      column-gap: 25px;
+      a {
+        color: $dark-gray;
+      }
+    }
+  }
+}
